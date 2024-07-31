@@ -2,13 +2,13 @@
 #include <bgfx/bgfx.h>
 
 struct PosColorVertex {
-  float x;
-  float y;
-  float z;
-  float n_x;
-  float n_y;
-  float n_z;
-  uint32_t abgr;
+    float x;
+    float y;
+    float z;
+    float n_x;
+    float n_y;
+    float n_z;
+    uint32_t abgr;
 };
 
 extern const PosColorVertex cube_vertices[24];
